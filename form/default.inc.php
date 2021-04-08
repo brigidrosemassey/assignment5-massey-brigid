@@ -6,10 +6,11 @@
   box-sizing: border-box;
 }
 header {
-  height: 100px;
+  height: 140px;
   text-align: right;
   background: #ceeae8;
-  padding: 20px 20px;
+  top: 0;
+  width: 100%;
 }
 
 nav ul li {
@@ -17,15 +18,28 @@ nav ul li {
 }
 
 nav a {
-  text-decoration: none;
-  color: #231f20;
   font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  color: #231f20;
   margin: 5px;
   padding: 5px;
 }
 
+header nav {
+  position: absolute;
+  right: 30px;
+  Top: 20px;
+  width: 60%;
+}
+
+header nav li {
+  display: inline-block;
+  margin: 35px 15px;
+}
+
 nav a:hover {
-  color: #233f99;
+  color: #a0a585;
   transition: .3s;
 }
 
@@ -36,10 +50,10 @@ nav a:hover {
   font-family: 'Open Sans Regular', sans-serif;
 }
 
-li:hover {
-  background: white;
-  transition: .3s;
+.logo {
+  text-align: center;
 }
+
 </style>
 
 <header>
@@ -55,4 +69,5 @@ li:hover {
 <div class="container">
   <h1>Sorry something went wrong with your submission</h1>
   <p>Please try again </p>
+  <img class="logo" src="images/bmdlogo.png" alt="Logo" />
 </div>

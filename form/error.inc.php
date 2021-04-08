@@ -10,10 +10,11 @@ body {
 	background-color: #ebeded;
 }
 header {
-  height: 100px;
+  height: 140px;
   text-align: right;
   background: #ceeae8;
-  padding: 20px 20px;
+  top: 0;
+  width: 100%;
 }
 
 nav ul li {
@@ -21,18 +22,30 @@ nav ul li {
 }
 
 nav a {
-  text-decoration: none;
-  color: #231f20;
   font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  color: #231f20;
   margin: 5px;
   padding: 5px;
 }
 
-nav a:hover {
-  color: #233f99;
-  transition: .3s;
+header nav {
+  position: absolute;
+  right: 30px;
+  Top: 20px;
+  width: 60%;
 }
 
+header nav li {
+  display: inline-block;
+  margin: 35px 15px;
+}
+
+nav a:hover {
+  color: #a0a585;
+  transition: .3s;
+}
 .container {
   max-width: 900px;
   margin: 50px auto 180px;
@@ -40,11 +53,9 @@ nav a:hover {
   font-family: 'Open Sans Regular', sans-serif;
 }
 
-li:hover {
-  background: white;
-  transition: .3s;
+.logo {
+  text-align: center;
 }
-
 </style>
 
 <header>
@@ -63,6 +74,7 @@ li:hover {
 	<h1>Missing fields</h1>
 	<p>Sorry, you have not completed all of the required fields.</p>
 	<p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
+  <img class="logo" src="images/bmdlogo.png" alt="Logo" />
 
 	<ul>
 	<?php
