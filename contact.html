@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="stylesheet/style.css" />
+
+      <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/d12d9986ff.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+  <header>
+      <!--Logo-->
+      <a href="index.html"><img class="logo" src="images/bmdlogo.png" alt="Logo" /></a>
+      <!--nav menu-->
+      <nav>
+        <ul>
+          <li ><a href="index.html">Home</a></li>
+          <li ><a href="portfolio.html">Portfolio</a></li>
+          <li ><a href="about.html">About</a></li>
+          <li ><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+
+   <main>
+
+    <div class="container">
+     <h1 class="touch">Get in touch</h1>
+     <p>Let's talk about your project</p>
+
+     <img class="location" src="images/staugmap.png" alt="Map of St Augustine Beach" max width="600" />
+
+     <form class="contact-form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+      <div class="first-name input-section">
+        <label for="firstname" class="label_input_wrap">First Name:
+        </label>
+        <input type="text" name="req_firstname" id="firstname" placeholder="ex: Brigid" />
+      </div>
+
+      <div class="last-name input-section">
+        <label for="lastname" class="label_input_wrap">Last Name:</label>
+        <input type="text" name="req_lastname" id="lastname"  placeholder="ex:Massey"/>
+      </div>
+
+      <div class ="email input-section">
+        <label for="email" class="label_input_wrap">Email:</label>
+        <input type="email" name="req_email" id="email" placeholder="ex:youremail@email.com"/>
+      </div>
+
+      <div class="telephone input-section">
+        <label for="telephone" class="label_input_wrap">Telephone:</label>
+        <input type="tel" name="telephone" id="telephone" placeholder="ex:555-555-5555" />
+      </div>
+
+      <div class="comments input-section">
+        <label for="comments" class="label_imput_wrap">Comments: </label>
+        <textarea name="comments" id="comments" cols="60" rows="5" placeholder="Your Comment Goes Here"></textarea>
+      </div>
+
+      <div class="submit input-section">
+        <input type="submit" value="Submit Form"/>
+      </div>
+      </form>
+     </div>
+
+    </main>
+  <footer>
+     <p class="website">Website by Brigid Massey</p>
+     <p>Follow Me:</p>
+     <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+     <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+     <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+  </footer>
+ </body>
+</html>

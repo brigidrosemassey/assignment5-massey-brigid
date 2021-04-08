@@ -1,0 +1,183 @@
+/*================================
+
+Universal Styling
+
+================================*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+/*================================
+
+Header Styling
+
+================================*/
+header {
+  height: 100px;
+  text-align: right;
+  background: #ceeae8;
+  margin-bottom: 20px;
+  top: 0;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  color: #231f20;
+  margin: 5px;
+  padding: 5px;
+}
+
+header nav {
+  display: inline-block;
+  width: 60%;
+  text-align: right;
+}
+
+header nav li {
+  display: inline-block;
+  margin: 35px 30px;
+}
+nav a:hover {
+  color: #233f99;
+  transition: .3s;
+}
+
+.logo {
+  max-width: 120px;
+  max-height: 120px;
+  margin-top: 10px;
+  position: absolute;
+  left: 10px;
+}
+/*================================
+
+Form Styling
+
+================================*/
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto 80px;
+  text-align: center;
+  position: relative;
+}
+
+.contact-form {
+  background: #233f99;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Open Sans Regular', sans-serif;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+input:hover {
+  background: lightgray;
+  transition: .3s;
+}
+
+.submit input {
+  background: white;
+  color: #231f20;
+  padding: 5px 20px;
+  display: inline;
+}
+
+.submit {
+  display: inline;
+}
+
+.input-section {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+textarea {
+  font-family: sans-serif;
+  padding: 10px 10px;
+}
+
+select {
+  width: 185px;
+  padding: 8px 0;
+  border-radius: 4px;
+}
+
+.touch {
+  margin: 20px;
+  font-family: 'Open Sans Regular', sans-serif;
+  font-size: 40px;
+}
+
+p {
+  font-family: 'Open Sans Regular', sans-serif;
+  font-size: 20px;
+}
+/*================================
+
+image2 Styling
+
+================================*/
+.location {
+  max-height: 230px;
+  max-width: 250px;
+  position: absolute;
+  right: 276px;
+  top: 145px;
+}
+
+/*================================
+
+Footer Styling
+
+================================*/
+
+footer {
+  font-family: 'Poppins', sans-serif;
+  background: #a0a5a5;
+  color: #231f20;
+  text-align: center;
+  padding: 50px 0;
+  height: 200px;
+}
+ footer a{
+   color: white;
+   font-size: 25px;
+   margin: 0 5px;
+   transition: .3s;
+ }
+ .website {
+   margin-bottom: 8px;
+ }
+ footer a:hover {
+   color: #ceeae8;
+   transition: .3s;
+ }
