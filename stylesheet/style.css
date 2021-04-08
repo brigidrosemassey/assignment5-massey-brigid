@@ -24,7 +24,6 @@ header {
   height: 140px;
   text-align: right;
   background: #ceeae8;
-
   top: 0;
   width: 100%;
 }
@@ -56,10 +55,16 @@ header nav li {
   margin: 35px 15px;
 }
 nav a:hover {
-  color: #233f99;
+  color: #a0a585;
   transition: .3s;
 }
+nav a:active {
+  color: #1faba1;
+}
 
+nav a:visited {
+  color: #233f99;
+}
 .logo {
   max-width: 160px;
   max-height: 160px;
@@ -74,10 +79,99 @@ nav a:hover {
 }
 /*================================
 
-Form Styling
+Home Page Styling
+
+================================*/
+.top-section {
+  border-top: 4px solid #a0a5a5;
+  max-width: 100%;
+  height: 400px;
+}
+.welcome {
+  text-align: center;
+  font-family: 'Open Sans Regular', sans-serif;
+  font-size: 50px;
+  margin-top: 150px;
+}
+
+.welcome2 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.middle {
+
+  background-color: #ceeae8;
+  width: 100%;
+  height: 50px;
+}
+
+.bottom {
+  background-color: #233f99;
+  width: 100%;
+  height: 700px;
+}
+
+/*================================
+
+Portfolio Page Styling
 
 ================================*/
 
+.portfolio {
+  width: 100%;
+  height: 700px;
+  background-color: #ebeded;
+}
+.projects{
+  padding:100px;
+  text-align: center;
+  color: #233f99;
+  font-size: 40px;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+/*================================
+
+About Page Styling
+
+================================*/
+
+.about {
+  width: 100%;
+  height: 700px;
+  background-color: #ebeded;
+}
+.info{
+  padding:100px;
+  text-align: center;
+  color: #233f99;
+  font-size: 40px;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+/*================================
+
+Contact Page Form Styling
+
+================================*/
+.pseudo .touch:first-child {
+  margin-top: 30px;
+  font-family: 'Open Sans Regular', sans-serif;
+  font-size: 40px;
+}
+.pseudo p:nth-child(2) {
+  color: #233f99;
+  font-family: 'Open Sans Regular', sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.pseudo p:last-child {
+  font-size: 12px;
+  margin-top: 4px;
+  font-family: 'Open Sans Regular', sans-serif;
+}
 .container {
   max-width: 1000px;
   margin: 20px auto 80px;
@@ -154,16 +248,7 @@ select {
   height: 200px;
   border-top: 4px solid #a0a5a5;
 }
-.touch {
-  margin: 20px;
-  font-family: 'Open Sans Regular', sans-serif;
-  font-size: 40px;
-}
 
-p {
-  font-family: 'Open Sans Regular', sans-serif;
-  font-size: 20px;
-}
 /*================================
 
 image2 Styling
