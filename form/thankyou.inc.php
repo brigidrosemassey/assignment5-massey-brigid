@@ -101,8 +101,4 @@ footer {
 
 <footer>
    <p class="website">Website by Brigid Massey</p>
-   <p class="follow">Follow Me:</p>
-   <a href="https://facebook.com/brigid.rose.98" target="_blank"><i class="fab fa-facebook"></i></a>
-   <a href="https://instagram.com/brigidrosemassey/" target="_blank"><i class="fab fa-instagram"></i></a>
-   <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
 </footer>
